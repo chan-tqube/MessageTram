@@ -11,14 +11,14 @@
          processIsolation="true"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="MyFirstPackage Test Suite">
-            <directory>tests/MyFirstPackage/</directory>
+        <testsuite name="MessageTram Test Suite">
+            <directory>tests/MessageTram/</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">src/MyFirstPackage/</directory>
+            <directory suffix=".php">src/MessageTram/</directory>
         </whitelist>
     </filter>
 

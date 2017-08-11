@@ -1,7 +1,7 @@
 <?php
 
 $header = <<<EOF
-This file is part of the MyFirstPackage package.
+This file is part of the MessageTram package.
 EOF;
 
 $finder = PhpCsFixer\Finder::create()

@@ -5,8 +5,10 @@
     "type": "package",
     "license": "UNLICENSED",
     "require": {
-        "guzzlehttp/guzzle": "^6.2",
-        "monolog/monolog": "^2.0@dev"
+        "monolog/monolog": "^2.0@dev",
+        "propaganistas/laravel-phone": "dev-master",
+        "illuminate/queue": "^5.5@dev",
+        "illuminate/http": "^5.5@dev"
     },
     "authors": [{
     	"name": "Chandresh Rajkumar Manonmani",
@@ -22,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MyFirstPackage\\": "src/MyFirstPackage"
+            "MessageTram\\": "src/MessageTram"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MyFirstPackage\\": "tests/MyFirstPackage"
+            "MessageTram\\": "tests/MessageTram"
         }
     },
     "scripts": {
